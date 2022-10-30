@@ -83,7 +83,12 @@ table {
 header {
     widht: 100%;
     height: 83px;
+    background: white;
     box-shadow: 3px 3px 3px darkgray;
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
 }
 
 header .content {
@@ -172,6 +177,87 @@ main .content video {
     width: 1200px;
     height: 675px;
 }
+nav {
+    width: 100%;
+    height: 400px;
+}
+nav .content {
+    margin: 0 auto;
+    width: 1200px;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .content .item {
+    width: 300px;
+    height: 289px;
+    position: relative;
+}
+nav .content .item .product {
+    width: 270px;
+    height: 180px;
+    background: tomato;
+    position: absolute;
+    bottom: 0px;
+    right: -40px;
+}
+nav .content .item .product:hover {
+    transition: all 0.8s;
+    right: -10px;
+}
+
+
+nav .content #construct {
+    background: center / contain no-repeat url("./resources/bg_main_pr01.jpg");
+}
+nav .content #construct:hover {
+    background: center / contain no-repeat url("./resources/bg_main_pr01_over.jpg");
+    transition: all 0.8s;
+}
+nav .content #construct .product {
+    background: center / contain no-repeat url("./resources/product_object01.png");
+}
+
+nav .content #industry {
+    background: center / contain no-repeat url("./resources/bg_main_pr02.jpg");
+}
+nav .content #industry:hover {
+    background: center / contain no-repeat url("./resources/bg_main_pr02_over.jpg");
+    transition: all 0.8s;
+}
+nav .content #industry .product {
+    background: center / contain no-repeat url("./resources/product_object02.png");
+}
+nav .content #ship {
+    background: center / contain no-repeat url("./resources/bg_main_pr03.jpg");
+}
+nav .content #ship:hover {
+    background: center / contain no-repeat url("./resources/bg_main_pr03_over.jpg");
+    transition: all 0.8s;
+}
+nav .content #ship .product {
+    background: center / contain no-repeat url("./resources/product_object03.png");
+    right: -60px;
+}
+nav .content #ship .product:hover {
+    right: -40px;
+}
+
+nav .content #car {
+    background: center / contain no-repeat url("./resources/bg_main_pr04.jpg");
+    overflow:hidden;
+}
+nav .content #car:hover {
+    background: center / contain no-repeat url("./resources/bg_main_pr04_over.jpg");
+    transition: all 0.8s;
+}
+nav .content #car .product {
+    background: center / contain no-repeat url("./resources/product_object04.png");
+}
+
+
 
 
 
