@@ -89,6 +89,7 @@ header {
     top: 0;
     left:0;
     right:0;
+    z-index:99;
 }
 
 header .content {
@@ -259,7 +260,6 @@ nav .content #car .product {
 
 .menu {
     width: 100%;
-    height: 793px;
 }
 .menu .content {
     margin: 0 auto;
@@ -305,17 +305,68 @@ nav .content #car .product {
     height: 250px;
     background: no-repeat url("./resources/img_main_brandstory_m.jpeg");
     background-size: contain;
-}.menu .content #recruit {
+}
+.menu .content #recruit {
      width: 100%;
      height: 250px;
      background: no-repeat url("./resources/img_main_recruit_m.jpeg");
      background-size: contain;
- }.menu .content #history {
+}
+.menu .content #history {
       width: 100%;
       height: 250px;
       background: no-repeat url("./resources/img_main_history_m.jpeg");
       background-size: contain;
-  }
+}
+.more {
+    width: 100%;
+    height: 250px;
+}
+.more .content {
+    margin: 0 auto;
+    width: 1200px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.more .content .item {
+    width: 385px;
+    height: 97px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    color: #004ba9;
+    font-family: 'Nanum Gothic', sans-serif;
+
+    border: 1px solid;
+    border-color: lightgray;
+}
+.more .content .item .btn {
+    width: 20px;
+    height: 20px;
+    background: center / contain no-repeat url("./resources/img_menu_more.png");
+}
+
+.more .content #tech {
+    width: 50px;
+    height: 50px;
+    background: center / contain no-repeat url("./resources/bg_main_btn01.png");
+}
+.more .content #store {
+    width: 50px;
+    height: 50px;
+    background: center / contain no-repeat url("./resources/bg_main_btn02.png");
+}
+.more .content #query {
+    width: 50px;
+    height: 50px;
+    background: center / contain no-repeat url("./resources/bg_main_btn03.png");
+}
+
+
 
 
 

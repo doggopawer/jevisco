@@ -11,3 +11,6 @@
 
 ## Menu
 <img src="./resources/Menu.png">
+
+## More
+<img src="./resources/More.png">
