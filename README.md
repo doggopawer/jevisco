@@ -14,3 +14,6 @@
 
 ## More
 <img src="./resources/More.png">
+
+## Footer
+<img src="./resources/Footer.png">
