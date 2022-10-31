@@ -8,3 +8,6 @@
 
 ## Navigation
 <img src="./resources/Navigation.png">
+
+## Menu
+<img src="./resources/Menu.png">

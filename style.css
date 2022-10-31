@@ -107,7 +107,7 @@ header .logo {
 }
 header .logo img {
     width: 190px;
-    height: 38px;
+    height: 26px;
 }
 
 header .gnb {
@@ -256,6 +256,68 @@ nav .content #car:hover {
 nav .content #car .product {
     background: center / contain no-repeat url("./resources/product_object04.png");
 }
+
+.menu {
+    width: 100%;
+    height: 793px;
+}
+.menu .content {
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-wrap : wrap;
+}
+.menu .content .item {
+    width: 25%;
+    height: 300px;
+    border-top: 2px solid;
+    border-color : #004ba9;
+    color: #004ba9;
+    font-family: 'Nanum Gothic',sans-serif;
+}
+.menu .content .item h2 {
+    padding: 10px 30px;
+    font-size: 26px;
+    position: relative;
+}
+.menu .content .item h2::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    background: center / contain no-repeat url("./resources/img_menu_more02.png");
+}
+.menu .content .item p {
+    padding: 20px 30px;
+    font-size: 10px;
+}
+.menu .content #company {
+    width: 100%;
+    height: 250px;
+    background: no-repeat url("./resources/img_main_company_m.jpeg");
+    background-size: contain;
+}
+.menu .content #brand {
+    width: 100%;
+    height: 250px;
+    background: no-repeat url("./resources/img_main_brandstory_m.jpeg");
+    background-size: contain;
+}.menu .content #recruit {
+     width: 100%;
+     height: 250px;
+     background: no-repeat url("./resources/img_main_recruit_m.jpeg");
+     background-size: contain;
+ }.menu .content #history {
+      width: 100%;
+      height: 250px;
+      background: no-repeat url("./resources/img_main_history_m.jpeg");
+      background-size: contain;
+  }
+
+
 
 
 
